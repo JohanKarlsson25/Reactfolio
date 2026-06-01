@@ -17,7 +17,6 @@ import {
 } from "react-icons/fa";
 import { BsFiletypeXml } from "react-icons/bs";
 import { TbBrandCpp, TbBrandKotlin } from "react-icons/tb";
-import { RiTailwindCssFill } from "react-icons/ri";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { IoLogoGithub } from "react-icons/io";
 
@@ -57,12 +56,12 @@ const footerIcons = [
 // Header Text and Logo Configuration
 // 'textLogo' is used for displaying the text logo on your portfolio. You can replace it with your name.
 // 'imgLogo' is optional and can be used to show an image logo.
-const textLogo = "John Doe"; // Replace with your name or brand name
+const textLogo = "Johan Karlsson"; // Replace with your name or brand name
 const imgLogo = null; // Replace with an image file if you want to use an image logo
 
 // Navigation Menu Items
 // This array defines the navigation menu items. Add or remove items as necessary.
-const navElements = ["About", "Education", "Skills", "Projects", "Contact"];
+const navElements = ["About", "Education", "Skills", "Projects"/*, "Contact"*/];
 
 // About Page Configuration
 // This object contains all the details for the "About" section of the portfolio.
@@ -74,8 +73,8 @@ const AboutPage = {
   getInTouchUrl: "Your contact url", // URL for your contact or form page
   authorName: "Johan Karlsson", // Replace with your name
   profileImgTagLine: "Junior Fullstack Developer", // Your tagline or job title
-  authorContactMail: "johndoe@gmail.com", // Your email address
-  authorContactNumber: "843-695-0671", // Your contact number (optional)
+  authorContactMail: "johankarlsson3125@gmail.com", // Your email address
+  authorContactNumber: "070-755 98 28", // Your contact number (optional)
 };
 
 // Education Details
