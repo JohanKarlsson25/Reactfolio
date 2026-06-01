@@ -14,7 +14,6 @@ import {
   FaJava,
   FaJs,
   FaCss3Alt,
-  FaYoutube,
 } from "react-icons/fa";
 import { BsFiletypeXml } from "react-icons/bs";
 import { TbBrandCpp, TbBrandKotlin } from "react-icons/tb";
@@ -71,10 +70,10 @@ const navElements = ["About", "Education", "Skills", "Projects", "Contact"];
 const AboutPage = {
   authorProfile: "", // Your profile image link
   authorDescription:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt ad architecto sint quaerat necessitatibus hic voluptas odio ex quidem eaque quo dicta, corrupti, incidunt quis reiciendis aperiam maiores molestias autem?", // Short bio or description about yourself
+    "Nyexaminerad datateknikingenjör från KTH med starkt intresse för fullstackutveckling, backendarkitektur och moderna webbapplikationer", // Short bio or description about yourself
   getInTouchUrl: "Your contact url", // URL for your contact or form page
-  authorName: "John Doe", // Replace with your name
-  profileImgTagLine: "Software Engineer @ Google", // Your tagline or job title
+  authorName: "Johan Karlsson", // Replace with your name
+  profileImgTagLine: "Junior Fullstack Developer", // Your tagline or job title
   authorContactMail: "johndoe@gmail.com", // Your email address
   authorContactNumber: "843-695-0671", // Your contact number (optional)
 };
@@ -84,15 +83,9 @@ const AboutPage = {
 // You can add more education objects if necessary.
 const EducationPage = [
   {
-    graduationYear: 2021, // Year of graduation
-    degreeType: "High School", // Type of degree
-    institution: "XYZ College", // Institution name
-    institutionUrl: "", // Institution website link (optional)
-  },
-  {
-    graduationYear: 2027, // Year of graduation
-    degreeType: "Bachelor's degree", // Degree type
-    institution: "XYZ University", // Institution name
+    graduationYear: 2026, // Year of graduation
+    degreeType: "Bachelor's degree", // Type of degree
+    institution: "KTH Royal Institute of Technology", // Institution name
     institutionUrl: "", // Institution website link (optional)
   },
   // Add more educational qualifications if needed
@@ -103,38 +96,24 @@ const EducationPage = [
 // To add more certifications, simply copy and modify the object structure below.
 const CertificatesPage = [
   {
-    img: "Your certificate image", // Certificate image URL
-    title: "Blue Mountain Certificate", // Certificate title
-    description: "Lorem ipsum...", // Short description of the certification
-    issuedBy: "Blue Mountain", // Issuer (e.g., Coursera, Google, etc.)
+    img: "src/Screenshot 2026-06-01 210504.png", // Certificate image URL
+    title: "Network Security", // Certificate title
+    description: "", // Short description of the certification
+    issuedBy: "Cisco", // Issuer (e.g., Coursera, Google, etc.)
     credentialURL: "", // Optional: URL to verify the certificate (if applicable)
   },
   {
-    img: "Your certificate image", // Certificate image URL
-    title: "Blue Mountain Certificate", // Certificate title
-    description: "Lorem ipsum...", // Short description of the certification
-    issuedBy: "Blue Mountain", // Issuer (e.g., Coursera, Google, etc.)
+    img: "src/Screenshot 2026-06-01 210605.png", // Certificate image URL
+    title: "Enterprise Networking, Security, and Automation", // Certificate title
+    description: "", // Short description of the certification
+    issuedBy: "Cisco", // Issuer (e.g., Coursera, Google, etc.)
     credentialURL: "", // Optional: URL to verify the certificate (if applicable)
   },
   {
-    img: "Your certificate image", // Certificate image URL
-    title: "Blue Mountain Certificate", // Certificate title
-    description: "Lorem ipsum...", // Short description of the certification
-    issuedBy: "Blue Mountain", // Issuer (e.g., Coursera, Google, etc.)
-    credentialURL: "", // Optional: URL to verify the certificate (if applicable)
-  },
-  {
-    img: "Your certificate image", // Certificate image URL
-    title: "Blue Mountain Certificate", // Certificate title
-    description: "Lorem ipsum...", // Short description of the certification
-    issuedBy: "Blue Mountain", // Issuer (e.g., Coursera, Google, etc.)
-    credentialURL: "", // Optional: URL to verify the certificate (if applicable)
-  },
-  {
-    img: "Your certificate image", // Certificate image URL
-    title: "Blue Mountain Certificate", // Certificate title
-    description: "Lorem ipsum...", // Short description of the certification
-    issuedBy: "Blue Mountain", // Issuer (e.g., Coursera, Google, etc.)
+    img: "src/Screenshot 2026-06-01 211032.png", // Certificate image URL
+    title: "Introduction to Networks", // Certificate title
+    description: "", // Short description of the certification
+    issuedBy: "Cisco", // Issuer (e.g., Coursera, Google, etc.)
     credentialURL: "", // Optional: URL to verify the certificate (if applicable)
   },
   // Add more certificates following the structure above
@@ -155,8 +134,6 @@ const skillsPage = [
   FaHtml5,
   BsFiletypeXml,
   FaCss3Alt,
-  RiTailwindCssFill,
-  FaYoutube,
 ];
 
 // Projects Section
@@ -164,20 +141,28 @@ const skillsPage = [
 // You can add or remove projects as needed.
 const projectsPage = [
   {
-    projectName: "Git clone", // Project name
-    projectDescription: "lorem ipsum...", // Project description
+    projectName: "Bachelor Thesis Internship – CQRS vs CRUD", // Project name
+    projectDescription: "", // Project description
     projectURL: "", // Optional: Project demo link (if hosted)
     githubRepositoryURL: "", // Optional: GitHub repository link
-    tags: "Flask, React.js, MongoDB, Rest API", // Tech stack used in the project
-    date: "Sep 2022 - May 2023", // Project duration
+    tags: "CQRS, CRUD, MongoDB, Rest API, MySQL, Java, Spring", // Tech stack used in the project
+    date: "Mar 2026 - Jun 2026", // Project duration
   },
   {
-    projectName: "Git clone", // Project name
-    projectDescription: "lorem ipsum...", // Project description
+    projectName: "Festival Booking System", // Project name
+    projectDescription: "", // Project description
     projectURL: "", // Optional: Project demo link (if hosted)
     githubRepositoryURL: "", // Optional: GitHub repository link
-    tags: "Flask, React.js, MongoDB, Rest API", // Tech stack used in the project
-    date: "Sep 2022 - May 2023", // Project duration
+    tags: "Java, React.js, SQL, Rest API, Spring, Typescript", // Tech stack used in the project
+    date: "Mar 2025 - Jun 2025", // Project duration
+  },
+  {
+    projectName: "Movie/TV Database App", // Project name
+    projectDescription: "Personal Project for an Imdb Clone", // Project description
+    projectURL: "", // Optional: Project demo link (if hosted)
+    githubRepositoryURL: "", // Optional: GitHub repository link
+    tags: "Java, React.js, SQL, Rest API, Spring, Typescript", // Tech stack used in the project
+    date: "Dec 2024 - Jan 2025", // Project duration
   },
   // Add more projects or remove the ones you don't need
 ];
